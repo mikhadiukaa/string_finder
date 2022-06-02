@@ -1,0 +1,86 @@
+body {
+  font-family:      Verdana, Geneva, Arial, sans-serif;
+  font-size:        medium;
+  background-color: cadetblue;
+  margin-top:       5%;
+  margin-bottom:    5%;
+  margin-left:      10%;
+  margin-right:     10%;
+  padding:          10px 10px 10px 10px;
+}
+.bold {
+  font-weight: bold;
+}
+#slogan {
+    color: whitesmoke;
+    font-size: 50px;
+    display: block;
+    margin-top: 5px;
+}
+a {
+  text-decoration:  none; 
+  font-weight:      600; 
+}
+a:hover {
+  text-decoration:  underline;
+}
+a img {
+  border:           0;
+}
+h2 {
+  font-size:        150%;
+}
+table {
+  margin-left:      20px;
+  margin-right:     20px;
+  caption-side:     bottom;
+  color:            cadetblue;
+  border-collapse:  collapse;
+}
+td, th {
+  padding:          5px;
+  text-align:       left;
+}
+.copyright {
+  font-size:        75%;
+  font-style:       italic;
+}
+.slogan {
+  font-size:        75%;
+  font-style:       italic;
+}
+.confirmentry {
+  font-weight:      600; 
+}
+
+/*** Tables ***/
+
+table {
+font-size:          1em;
+background-color:   #C0C0C0;
+border:             1px solid #C0C0C0;
+color:              #2a2a2a;
+padding:            5px 5px 2px;
+border-collapse:    collapse;
+}
+
+td, th {
+border:             transparent;
+}
+
+/*** Inputs ***/
+input[type=text] {
+  font-size:        115%;
+  width:            30em;
+  color:            black;
+}
+input[type=submit] {
+  font-size:        100%;
+  font-weight: lighter;
+  background-color: #C0C0C0;
+  border: transparent;
+}
+select {
+  font-size:        125%;
+  color: #C0C0C0;
+}

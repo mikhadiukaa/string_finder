@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<p id = "slogan">Hi, i'm Arseni</p>
+<h2> {{ the_title }} </h2>
+<form method='POST' action='/search4'>
+<table>
+<p>Введите текст:</p>
+<tr><td>Текст:</td><td><input name='text' type='TEXT' width='60'></td></tr>
+
+</table>
+<table>
+<p>Введите строку (с помощью программы вы узнаете, сколько раз эта строка встречается в тексте):</p>
+<tr><td>Строка:</td><td><input name='sign' type='TEXT' width='60'></td></tr>
+
+</table>
+<p>Если вы готовы, нажмите кнопку:</p>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+
+{% endblock %}

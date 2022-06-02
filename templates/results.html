@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2> {{ the_title }} </h2>
+<form method='GET' action='/entry'>
+<p>Вы ввели следующую строку:</p>
+<table>
+<tr><td>{{ the_sign }}</td></tr>
+</table>
+<p>И следующий текст:</p>
+<table>
+<tr><td>{{ the_text }}</td></tr>
+</table>
+<h3>{{ the_results }}</h3>
+
+<p>Если вы хотите продолжить, нажмите кнопку:</p>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+{% endblock %}
